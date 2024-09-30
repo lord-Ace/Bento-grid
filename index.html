@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: currentColor;
+      text-decoration: none;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .content-holder{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      min-height: 99vh;
+      padding: 1em;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: ;
+      gap: .5em;
+      grid-template-areas: 
+        "post media schedule"
+      ;
+    }
+  </style>
+</head>
+<body>
+  <main class="content-holder">
+    <div class="content">
+      Social Media 10x Faster with AI
+  Over 4,000 5-star reviews
+    </div>
+    <div class="content">
+       Manage multiple accounts and platforms.
+    </div>
+    <div class="content">
+      Maintain a consistent posting schedule.
+    </div>
+    <div class="content">
+      Schedule to social media.
+  Optimize post timings to publish content at the perfect time for your audience.
+    </div>
+    <div class="content">
+      Grow followers with non-stop content.
+    </div>
+    <div class="content">
+        >56% faster audience growth
+    </div>
+    <div class="content">
+      Create and schedule content quicker.
+    </div>
+    <div class="content">
+      Write your content using AI.
+    </div>
+  </main> 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
